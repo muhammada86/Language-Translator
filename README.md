@@ -35,3 +35,10 @@ Now you're ready to go
 ````
 npm start
 ````
+
+### Instructions
+- The base language is english and the provided tags languages are in src/data/countries.json with an object containing name and code of each language
+- to modify the base language navigate to src/index.js file
+- you can edit the const baseLanguage = en to your desired language short form.
+- save changes and kill the server
+- restart the server and that's all.
