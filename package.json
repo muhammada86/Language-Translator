@@ -1,7 +1,7 @@
 {
     "name": "language-translator",
     "version": "0.0.1",
-    "description": "This repo let you know any JSON file to translate into provided tag lanuages automatically with google translate.",
+    "description": "This repo translates any JSON file containing language keyphrases into provided tag languages automatically with google translate.",
     "main": "server.js",
     "scripts": {
         "start": "node server.js"
