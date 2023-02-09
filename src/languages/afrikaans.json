@@ -1,0 +1,253 @@
+{
+  "base": {
+    "delete": "Vee uit",
+    "deleting": "Vee tans uit …",
+    "updating": "Dateer tans op …",
+    "sending": "Stuur...",
+    "edit": "wysig",
+    "update": "Opdateer",
+    "deleteAlertMessage1": "Is jy seker jy wil permanent uitvee",
+    "deleteAlertMessage2": "Hierdie handeling kan nie ontdoen word nie.",
+    "close": "Naby",
+    "ok": "OK",
+    "noData": "Geen data gevind nie",
+    "search": "Soek...",
+    "somethingWentWrong": "Iets het verkeerd geloop. Probeer asseblief weer. ",
+    "submit": "Indien"
+  },
+  "camera": {
+    "allowCamera": "Laat asseblief kameratoegang vanaf privaatheidinstellings toe.",
+    "noPermission1": "Geen toegang tot kamera nie",
+    "noPermission2": "Ons het nie toegang tot jou kamera nie. Jy kan toegang in aktiveer",
+    "privacySettings": "Privaatheid instellings",
+    "checkAgain": "Kyk weer",
+    "openPrivacy": "Maak privaatheidinstellings oop"
+  },
+  "upload": {
+    "title": "Laai media op",
+    "selectFrom": "Kies Van",
+    "gallery": "Galery",
+    "camera": "Kamera"
+  },
+  "onboarding": {
+    "item1": {
+      "title": "Vermy Kitskos",
+      "description": "Kitskosse verkort jou lewenslengte met baie jare."
+    },
+    "item2": {
+      "title": "Moet nooit ontbyt oorslaan nie",
+      "description": "Om ontbyt oor te slaan, sal meer geneig wees tot gewigstoename as gewigsverlies."
+    },
+    "item3": {
+      "title": "Kies 'n lae-kalorie aandete",
+      "description": "Moet nooit om gesond te wees gelykstel met om jouself uit te honger nie. "
+    },
+    "item4": {
+      "title": "eet gesonde middagete",
+      "description": "Moenie vinnig, goedkoop, eenvoudig of kunsmatig wees nie, want jy is wat jy eet."
+    },
+    "item5": {
+      "title": "vergeet van nageregte",
+      "description": "Sny bygevoegde suiker en jy kan kalorieë en liggaamsgewig verlaag, wat jou cholesterol kan verbeter"
+    }
+  },
+  "drawer": {
+    "setting": "Instellings",
+    "language": "Taal",
+    "selectLanguage": "Kies taal",
+    "languageTitle": "Kies jou voorkeurtaal"
+  },
+  "auth": {
+    "alreadyHave": "Reeds 'n rekening?",
+    "firstName": "Eerste naam",
+    "lastName": "Van",
+    "email": "E-pos adres",
+    "phone": "Telefoon nommer",
+    "password": "Wagwoord",
+    "current": "huidige Sleutelwoord",
+    "newPassword": "Nuwe Wagwoord",
+    "confirm": "Bevestig Wagwoord",
+    "sticker": "Plakker",
+    "accountStatus": "Rekeningstatus",
+    "chooseStatus": "Kies Status",
+    "dateOfBirth": "Geboortedatum",
+    "DOB": "Kies Geboortedatum",
+    "zipcode": "Poskode",
+    "emailVerified": "Jou e-posadres is geverifieer. ",
+    "emailUnverified": "Jou e-posadres is nie geverifieer nie",
+    "login": {
+      "title": "Teken aan",
+      "heroText": "Meld aan om voort te gaan",
+      "authenticating": "Staaf tans..."
+    },
+    "signup": {
+      "heroText": "Sluit aan om onmiddellike toegang te kry",
+      "registering": "Registreer tans …",
+      "title": "Teken aan",
+      "addMember": "Voeg lid by",
+      "createNew": "Skep nuwe rekening",
+      "chooseSticker": "Kies jou plakker"
+    },
+    "forgot": {
+      "heroText": "Verskaf jou geregistreerde e-posadres",
+      "title": "Wagwoord vergeet",
+      "backToLogin": "Terug na aanmelding"
+    },
+    "change": {
+      "title": "Verander wagwoord",
+      "submit": "Dateer wagwoord op"
+    },
+    "updateEmail": {
+      "title": "Dateer e-posadres op",
+      "submit": "Dateer op en stuur verifikasie"
+    },
+    "updatePassword": {
+      "title": "Dateer telefoonnommer op"
+    },
+    "verify": {
+      "title": "Bevestig e-posadres",
+      "helperText1": "Jou eposadres",
+      "helperText2": "is nie geverifieer nie, klik asseblief hieronder om verifikasieskakel te genereer.",
+      "submit": "Stuur verifikasie-e-pos",
+      "pleaseVerify": "Verifieer asseblief jou rekening met jou e-posadres."
+    },
+    "logout": "Teken uit"
+  },
+  "home": {
+    "title": "Familielede",
+    "addMember": "Voeg familielid by",
+    "detail": "Lid Besonderhede",
+    "sticker": "plakker",
+    "dob": "DOB",
+    "totalDiets": "Totale diëte",
+    "allergicIngrdients": "Allergiese bestanddele"
+  },
+  "search": {
+    "title": "Soek produk bestanddele",
+    "searching": "Soek produk",
+    "invalidCode": "Ongeldige strepieskode",
+    "history": {
+      "title": "Skandeer geskiedenis",
+      "empty": "Nog geen soekgeskiedenis nie.",
+      "description": "Jou produkskanderingsgeskiedenis sal hier gewys word."
+    }
+  },
+  "product": {
+    "title": "Produkbesonderhede",
+    "add": {
+      "title": "Voeg produk by",
+      "adding": "Voeg tans produk by...0",
+      "atLeastOne": "Ten minste een produkprent word vereis.",
+      "name": "Produk Naam",
+      "barcode": "Produk strepieskode",
+      "addImage": "Laai produkprente op",
+      "submit": "Voeg produk by"
+    },
+    "nutrition": {
+      "title": "Inligting oor voedingstowwe",
+      "label": "Etiket",
+      "value": "Waarde"
+    },
+    "report": {
+      "incompatibleInfo": "Hierdie produk het die volgende onversoenbare bestanddele vir elke lid.",
+      "safe": "Hierdie produk is veiliger aangesien dit geen onversoenbare bestanddele bevat nie.",
+      "unsafe": "is nie veilig vir genoemde lede nie.",
+      "phrase1": "onversoenbaar is met",
+      "phrase2": "van"
+    },
+    "notFound": "Produk is nie gevind nie; "
+  },
+  "notification": {
+    "title": "Kennisgewings",
+    "empty": "Nog geen kennisgewing nie.",
+    "description": "Jy sal jou kennisgewings hier sien"
+  },
+  "offline": {
+    "title": "geen internet konneksie nie",
+    "subtitle": "Probeer hierdie opsies om weer aanlyn te kom",
+    "option1": "Gaan jou router en modem na",
+    "option2": "Herkoppel aan WIFI"
+  },
+  "profile": {
+    "title": "Profiel",
+    "editAccount": "Redigeer rekening"
+  },
+  "error": {
+    "title": "Iets het verkeerd geloop. Probeer asseblief weer. "
+  },
+  "diet": {
+    "attatch": "Heg dieet aan",
+    "select": "Kies dieet",
+    "search": "Soek diëte",
+    "adding": "Voeg tans dieet by...",
+    "addCustom": "Voeg pasgemaakte dieet by",
+    "name": "Dieet Naam"
+  },
+  "ingredient": {
+    "attatch": "Heg bestanddele aan",
+    "select": "Kies bestanddele",
+    "search": "Soek bestanddele",
+    "title": "Bestanddele lys",
+    "empty": "Geen bestanddele word met hierdie dieet geassosieer nie.",
+    "expandForMore": "Brei uit om die lys Onversoenbare bestanddele te sien",
+    "incompatibleInfo": "Onversoenbare bestanddele Inligting"
+  },
+  "settings": {
+    "support": {
+      "title": "Hulp en ondersteuning",
+      "call": "Bel",
+      "email": "E-pos"
+    },
+    "appearence": "Voorkoms",
+    "faq": {
+      "title": "Gereelde vrae",
+      "item1": {
+        "title": "Hoekom werk skandering nie?",
+        "data": "Hierdie toepassing vereis kameratoegang om produkstrepieskodes te skandeer. "
+      },
+      "item2": {
+        "title": "Wat as die produk nie beskikbaar is nie?",
+        "subtitle": "Die aksies hieronder gelys kan gebruik word om 'n produk by ons databasis te voeg.",
+        "list": {
+          "1": "Om 'n produk te vind, skandeer die strepieskode.",
+          "2": "'n Opspringer sal verskyn as die produk nie opgespoor kan word nie. Druk OK",
+          "3": "Laai ten minste een produkfoto op en sluit die produknaam in",
+          "4": "Klik op Voeg produk by om dit by ons databasis in te dien"
+        }
+      },
+      "item3": {
+        "title": "Die produk het geen strepieskode nie",
+        "data": "'n Produk sonder 'n strepieskode kan nie geskandeer word nie, en sonder een kan ons nie vir die stelsel sê waar om dit te soek nie."
+      }
+    },
+    "privacy": "Privaatheidsbeleid",
+    "terms": "Gebruiksvoorwaardes",
+    "reportBug": {
+      "title": "Rapporteer 'n fout",
+      "sending": "Stuur 'n verslag",
+      "caption": "Wees asseblief so gedetailleerd as moontlik. ",
+      "message": "Boodskap"
+    },
+    "about": {
+      "title": "Oor",
+      "buildNumber": "Bou nommer",
+      "version": "App weergawe"
+    },
+    "nutritionInfo": {
+      "1": "'n Kikalorie is 'n ander woord vir wat algemeen 'n kalorie genoem word, so 1 000 kalorieë sal as 1 000 kcal geskryf word. ",
+      "2": "Hierdie getal dui aan hoeveel vet in 'n enkele porsie kos is. ",
+      "3": "Versadigde vetsure (SFA) bevat geen dubbelbinding nie; ",
+      "4": "Transvetsure is vervaardigde vette wat geskep word tydens 'n proses genaamd hidrogenering, wat daarop gemik is om poli-onversadigde olies te stabiliseer om te verhoed dat dit galster word en om dit by kamertemperatuur solied te hou. ",
+      "5": "Die waarde vir koolhidraatinhoud van voedsel wat in samestellingstabelle gegee word, is gewoonlik \"koolhidraat volgens verskil\", dit wil sê die oorblywende gewig na aftrekking van hoeveelhede water, proteïen, vet en as wat deur ontleding gevind is; ",
+      "6": "Dieetvesel, ook bekend as ruvoer of grootmaat, sluit die dele van plantvoedsel in wat jou liggaam nie kan verteer of absorbeer nie. ",
+      "7": "'n Soet kristalliseerbare materiaal wat geheel en al of hoofsaaklik uit sukrose bestaan, kleurloos of wit is wanneer dit suiwer is en geneig is om bruin te word wanneer dit minder verfyn is, kommersieel verkry word uit suikerriet of suikerbeet en minder ekstensief uit sorghum, esdoorns en palms, en is belangrik as 'n bron ",
+      "8": "Proteïene is die boustene van lewe. ",
+      "9": "Dieetcholesterol verwys na cholesterol wat die liggaam binnedring deur voedsel soos rooivleis, eiers en vetterige suiwelprodukte. ",
+      "10": "Natrium is 'n mineraal wat in baie kosse voorkom. ",
+      "11": "Kalsium is 'n mineraal wat die meeste met gesonde bene en tande geassosieer word, hoewel dit ook 'n belangrike rol speel in bloedstolling, spiere help om saam te trek en normale hartritmes en senuweefunksies te reguleer.",
+      "12": "Yster is 'n mineraal wat natuurlik in baie kosse voorkom, by sommige voedselprodukte gevoeg word en beskikbaar is as 'n dieetaanvulling. ",
+      "13": "Vitamien C, of ​​askorbiensuur, is 'n wateroplosbare vitamien. ",
+      "title": "Inligting oor voedingstowwe"
+    }
+  }
+}
