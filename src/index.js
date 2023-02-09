@@ -36,6 +36,7 @@ async function translateFile(toFile, targetLanguage) {
         const translatedJson = await translateNestedJson(EnglishJSON, targetLanguage)
         fs.writeFileSync(`${basePath}${toFile}.json`, JSON.stringify(translatedJson, null, 2))
         currentIndex += 1
+        logger.log(`${countriesJSON.length - currentIndex - 1} pending translations.`)
         translateToAllCountries()
     } catch (error) {
         logger.error(error.message)
@@ -43,14 +44,18 @@ async function translateFile(toFile, targetLanguage) {
 }
 
 function translateToAllCountries() {
+    if (countriesJSON.length === 0) {
+        logger.error(`Please provide at least one language to translate`)
+        return
+    }
+    if (currentIndex === countriesJSON.length) {
+        logger.log(`All languages has been translated successfully.`)
+        return
+    }
     const fileName = countriesJSON[currentIndex].name.replace(/\s/gi, "-").toLowerCase()
     const code = countriesJSON[currentIndex].code.toLowerCase()
     const existingFile = `${basePath}${fileName}.json`
     const location = `src/languages/${fileName}.json`
-    if (currentIndex === countriesJSON.length - 1) {
-        logger.log(`All languages has been translated successfully.`)
-        return
-    }
     if (!fs.existsSync(existingFile)) {
         translateFile(fileName, code)
     } else {
