@@ -36,7 +36,10 @@ async function translateFile(toFile, targetLanguage) {
         const translatedJson = await translateNestedJson(EnglishJSON, targetLanguage)
         fs.writeFileSync(`${basePath}${toFile}.json`, JSON.stringify(translatedJson, null, 2))
         currentIndex += 1
-        logger.log(`${countriesJSON.length - currentIndex - 1} pending translations.`)
+        const pending = countriesJSON.length - currentIndex
+        if (pending > 0) {
+            logger.log(`${pending} pending translations.`)
+        }
         translateToAllCountries()
     } catch (error) {
         logger.error(error.message)

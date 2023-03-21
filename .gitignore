@@ -4,3 +4,4 @@ node_modules
 site
 dist
 src/languages
+.DS_Store
