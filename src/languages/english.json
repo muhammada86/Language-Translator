@@ -1,0 +1,12 @@
+{
+    "welcome": {
+        "title": "Welcome",
+        "child": {
+            "title": "To Language Translator",
+            "child": {
+                "title": "This will translate everything",
+                "nested": "This will translate as much as nested object you have"
+            }
+        }
+    }
+}

@@ -1,7 +1,19 @@
 {
     "name": "language-translator",
     "version": "0.0.1",
-    "description": "This repo translates any JSON file containing language keyphrases into provided tag languages automatically with google translate.",
+    "description": "Introducing our i18n language translation package! Our package allows you to easily translate your web or mobile application into multiple languages using a simple JSON file. With support for over 50 languages, our package makes it easy to reach a global audience and improve user experience. Whether you're a developer or a business owner, our package is the perfect solution for streamlining your localization efforts and boosting your international presence.",
+    "keywords": [
+        "i18n",
+        "Localization",
+        "Translation",
+        "Language",
+        "JSON",
+        "react",
+        "react-native",
+        "Multilingual",
+        "Web development",
+        "App development"
+    ],
     "main": "server.js",
     "scripts": {
         "start": "node server.js"
