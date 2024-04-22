@@ -1,5 +1,5 @@
 const app = require("./index")
-const port = process.env.PORT
+const port = process.env.PORT || 3000
 const { translateToAllCountries } = require("./src")
 const logger = require("./src/logger")
 
