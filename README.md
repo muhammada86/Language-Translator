@@ -65,28 +65,89 @@ Suppose your base language JSON file (en.json) contains the following keyphrases
 
 ```json
 {
-  "greeting": "Hello",
-  "farewell": "Goodbye",
-  "thank_you": "Thank you"
+  "greeting": {
+    "default": "Hello",
+    "formal": {
+      "morning": {
+        "office": "Good morning",
+        "meeting": "Greetings"
+      },
+      "evening": {
+        "dinner": "Good evening",
+        "event": "Welcome"
+      }
+    },
+    "informal": {
+      "friends": {
+        "close": "Hey",
+        "casual": "Hi"
+      },
+      "family": {
+        "parents": "Hello",
+        "siblings": "Yo"
+      }
+    }
+  }
 }
+
 ```
 With `src/data/countries.json` specifying Spanish `(es)` and French `(fr)` as target languages, the tool will generate two JSON files:
 
 `es.json:`
 ```json
 {
-  "greeting": "Hola",
-  "farewell": "Adiós",
-  "thank_you": "Gracias"
+  "greeting": {
+    "default": "Hola",
+    "formal": {
+      "morning": {
+        "office": "Buenos días",
+        "meeting": "Saludos"
+      },
+      "evening": {
+        "dinner": "Buenas noches",
+        "event": "Bienvenido"
+      }
+    },
+    "informal": {
+      "friends": {
+        "close": "Oye",
+        "casual": "Hola"
+      },
+      "family": {
+        "parents": "Hola",
+        "siblings": "Qué tal"
+      }
+    }
+  }
 }
 ```
 
-`es.json:`
+`fr.json:`
 ```json
 {
-  "greeting": "Bonjour",
-  "farewell": "Au revoir",
-  "thank_you": "Merci"
+  "greeting": {
+    "default": "Bonjour",
+    "formal": {
+      "morning": {
+        "office": "Bonjour",
+        "meeting": "Salutations"
+      },
+      "evening": {
+        "dinner": "Bonsoir",
+        "event": "Bienvenue"
+      }
+    },
+    "informal": {
+      "friends": {
+        "close": "Hé",
+        "casual": "Salut"
+      },
+      "family": {
+        "parents": "Bonjour",
+        "siblings": "Ça va"
+      }
+    }
+  }
 }
 ```
 
